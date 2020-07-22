@@ -1,12 +1,8 @@
 ;(function () {
-	
-	'use strict';
-
-
 
 	var isMobile = {
 		Android: function() {
-			return navigator.userAgent.match(/Android/i);
+			return navigator.userAgent.match(/IEMobile/i);
 		},
 			BlackBerry: function() {
 			return navigator.userAgent.match(/BlackBerry/i);
