@@ -17,14 +17,14 @@
 			return navigator.userAgent.match(/IEMobile/i);
 		},
 			any: function() {
-			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+			return (isMobile.Windows());
 		}
 	};
 
 	var getHeight = function() {
 		var extraHeight = 0;
 
-		if ( isMobile.any() ) extraHeight = 600;
+		if ( isMobile.any() ) extraHeight = 0;
 		
 		setTimeout(function(){
 			$('#fh5co-main').stop().animate({
