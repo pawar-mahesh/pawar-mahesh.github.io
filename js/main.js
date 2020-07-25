@@ -22,13 +22,9 @@
 	};
 
 	var getHeight = function() {
-		var extraHeight = 0;
-
-		if ( isMobile.any() ) extraHeight = 1500;
-		
 		setTimeout(function(){
 			$('#fh5co-main').stop().animate({
-				'height': $('.fh5co-tab-content.active').height() + extraHeight
+				'height': $('.fh5co-tab-content.active').height() + 50
 			});
 		}, 200);
 	};
