@@ -22,15 +22,10 @@
 	};
 
 	var getHeight = function() {
-		var extraHeight = 0;
-		if ($('.fh5co-tab-content.active').height() < 650)
-		{
-			extraHeight = 500;
-		}
-
+		
 		setTimeout(function(){
 			$('#fh5co-main').stop().animate({
-				'height': $('.fh5co-tab-content.active').height() + extraHeight
+				'height': 1150
 			});
 		}, 200);
 	};
