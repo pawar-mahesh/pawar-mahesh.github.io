@@ -311,6 +311,7 @@ figure {
 }
 .fh5co-social li a:hover {
   color: #17e7a4;
+  transform: rotate(360deg) scale(1.2); 
 }
 .fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus {
   outline: none;
@@ -447,4 +448,14 @@ figure {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+.contact{
+  margin-top: 2px;
+  display: inline-block;
+  height:20px;
+  width: 100%;
+  padding:5%;
+  display: inline-block;
+  border-radius: 50%; 
+  text-align: center;
+  margin-bottom: 5px;
+}
