@@ -23,9 +23,11 @@
 
 	var getHeight = function() {
 		
+		var extraHeight = 50;
+
 		setTimeout(function(){
 			$('#fh5co-main').stop().animate({
-				'height': 1150
+				'height': $('.fh5co-tab-content.active').height() + extraHeight
 			});
 		}, 200);
 	};
