@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 409px) {
   .fh5co-tab-wrap .fh5co-tab-menu li a .menu-text {
     display: none;
   }
