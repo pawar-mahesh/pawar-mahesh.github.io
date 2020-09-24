@@ -26,7 +26,7 @@
 		var extraHeight = 50;
 
 		setTimeout(function(){
-			$('#fh5co-main').stop().animate({
+			$('#fh5co-main').animate({
 				'height': $('.fh5co-tab-content.active').height() + extraHeight
 			});
 		}, 200);
