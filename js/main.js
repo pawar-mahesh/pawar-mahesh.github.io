@@ -22,8 +22,9 @@
 	};
 
 	var getHeight = function() {
-		
-		var extraHeight = 50;
+		var extraHeight = 0;
+
+		if ( isMobile.any() ) extraHeight = 30;
 
 		setTimeout(function(){
 			$('#fh5co-main').animate({
