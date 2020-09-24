@@ -24,7 +24,7 @@
 	var getHeight = function() {
 		var extraHeight = 0;
 
-		if ( isMobile.any() ) extraHeight = 30;
+		if ( isMobile.any() ) extraHeight = 50;
 
 		setTimeout(function(){
 			$('#fh5co-main').animate({
