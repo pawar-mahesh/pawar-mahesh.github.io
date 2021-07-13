@@ -1,0 +1,40 @@
+.cardProfile {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20rem;
+  width: 70%;
+}
+
+.cardProfile img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9rem;
+  height: 12rem;
+  width: 12rem;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5%;
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.currentJob {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.9%;
+  padding-bottom: 2%;
+  margin: 0;
+}
+
+.border {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #818181;
+  margin-top: 1.5%;
+  width: 70%;
+}
