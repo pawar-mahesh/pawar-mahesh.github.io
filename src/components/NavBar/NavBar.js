@@ -7,12 +7,12 @@ const NavBar = () => {
     <div>
       <div className="navBar">
         <div className="buttonAlignment">
-          <button>hihellohi</button>
-          <button>hihellohi</button>
-          <button>hihellohi</button>
-          <button>hihellohi</button>
-          <button>hihellohi</button>
-          <button>hihellohi</button>
+          <button>About</button>
+          <button>Education</button>
+          <button>Experience</button>
+          <button>Projects</button>
+          <button>Skills</button>
+          <button>Contact Me</button>
         </div>
       </div>
       <Home />
