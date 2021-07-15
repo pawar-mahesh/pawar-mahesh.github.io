@@ -3,7 +3,7 @@ import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
 import styled from "styled-components";
 
-const SocialMedia = () => {
+const SocialMedia = (props) => {
   const IconWrapper = styled.span`
     i {
       background-color: ${(props) => props.backgroundColor};
