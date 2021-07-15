@@ -16,7 +16,7 @@ const Header = (props) => {
     el.style.backgroundColor = "transparent";
   };
 
-  const theme = props.theme;
+  // const theme = props.theme;
   const link = settings.isSplash ? "/splash" : "home";
 
   return (
@@ -25,24 +25,24 @@ const Header = (props) => {
       <div>
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
-            <span style={{ color: theme.text }}> &lt;</span>
-            <span className="logo-name" style={{ color: theme.text }}>
+            <span style={{ color: props.text }}> &lt;</span>
+            <span className="logo-name" style={{ color: props.text }}>
               {greeting.logo_name}
             </span>
-            <span style={{ color: theme.text }}>/&gt;</span>
+            <span style={{ color: props.text }}>/&gt;</span>
           </NavLink>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
           </label>
-          <ul className="menu" style={{ backgroundColor: theme.body }}>
+          <ul className="menu" style={{ backgroundColor: props.body }}>
             <li>
               <NavLink
                 to="/home"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
-                style={{ color: theme.text }}
-                onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                style={{ color: props.text }}
+                onMouseEnter={(event) => onMouseEnter(event, props.highlight)}
                 onMouseOut={(event) => onMouseOut(event)}
               >
                 Home

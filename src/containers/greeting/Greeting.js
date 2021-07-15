@@ -14,15 +14,15 @@ const Greeting = (props) => {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text" style={{ color: theme.text }}>
+              <h1 className="greeting-text" style={{ color: props.text }}>
                 {greeting.title}
               </h1>
-              <h2 className="greeting-nickname" style={{ color: theme.text }}>
+              <h2 className="greeting-nickname" style={{ color: props.text }}>
                 ( {greeting.nickname} )
               </h2>
               <p
                 className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
+                style={{ color: props.secondaryText }}
               >
                 {greeting.subTitle}
               </p>

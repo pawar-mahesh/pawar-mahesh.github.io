@@ -17,20 +17,16 @@ const Button = (props) => {
   return (
     <div className={props.className}>
       <a
-        class="main-button"
+        className="main-button"
         href={props.href}
         target={props.newTab && "_blank"}
         style={{
-          color: props.theme.body,
-          backgroundColor: props.theme.text,
-          border: `solid 1px ${props.theme.text}`,
+          color: props.body,
+          backgroundColor: props.text,
+          border: `solid 1px ${props.text}`,
         }}
-        onMouseEnter={(event) =>
-          onMouseEnter(event, props.theme.text, props.theme.body)
-        }
-        onMouseOut={(event) =>
-          onMouseOut(event, props.theme.body, props.theme.text)
-        }
+        onMouseEnter={(event) => onMouseEnter(event, props.text, props.body)}
+        onMouseOut={(event) => onMouseOut(event, props.body, props.text)}
       >
         {props.text}
       </a>
