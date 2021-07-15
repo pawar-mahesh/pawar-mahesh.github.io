@@ -2,7 +2,8 @@ import React from "react";
 import Home from "./components/Home/Home";
 
 const Main = (props) => {
-  return <Home theme={props.theme} />;
+  const theme = props.theme;
+  return <Home theme={theme} />;
 };
 
 export default Main;
