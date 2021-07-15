@@ -1,14 +1,20 @@
 import React from "react";
-import HomePage from "./components/HomePage/HomePage";
 import "./App.css";
+import Main from "./Main";
+import { ThemeProvider } from "styled-components";
+import { chosenTheme } from "./theme";
+import { GlobalStyles } from "./global";
 
 const App = () => {
   return (
-    <div className="App">
-      <div>
-        <HomePage />
-      </div>
-    </div>
+    <ThemeProvider theme={chosenTheme}>
+      <>
+        <GlobalStyles />
+        <div>
+          <Main theme={chosenTheme} />
+        </div>
+      </>
+    </ThemeProvider>
   );
 };
 
