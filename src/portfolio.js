@@ -180,7 +180,7 @@ const experience = {
           title: "Digital Specialist Engineer (DSE)",
           company: "Infosys Ltd",
           company_url: "https://www.infosys.com/",
-          logo_path: "google_logo.png",
+          logo_path: "infosys_logo.png",
           duration: "Nov 2020 - PRESENT",
           location: "Hyderabad, Telangana",
           description:
@@ -196,7 +196,7 @@ const experience = {
           title: "Ashwini Hospital Management System",
           company: "Ashwini Hospital, Solapur",
           company_url: "http://www.ashwinihospital.co.in/",
-          logo_path: "google_logo.png",
+          logo_path: "ashwiniHospital_logo.png",
           duration: "May 2019 - Feb 2020",
           location: "Solapur, Maharashtra",
           description:
@@ -221,9 +221,10 @@ const experience = {
       experiences: [
         {
           title: "Pixel Experience",
-          company: "Github",
-          company_url: "https://github.com/PixelExperience",
-          logo_path: "google_logo.png",
+          company: "Xda-Developers - PixelExperience",
+          company_url:
+            "https://forum.xda-developers.com/t/11-fbe-pixel-experience-plus-july-05-2021.4154583/",
+          logo_path: "pixelExperience_logo.png",
           duration: "Feb 2020 - PRESENT",
           location: "Work From Home",
           description:
@@ -232,9 +233,10 @@ const experience = {
         },
         {
           title: "Colt OS",
-          company: "Github",
-          company_url: "https://github.com/PixelExperience",
-          logo_path: "google_logo.png",
+          company: "Xda-Developers - ColtOS",
+          company_url:
+            "https://forum.xda-developers.com/t/rom-official-colt-os-android-10-tulip-19-05-2020.4063293/",
+          logo_path: "coltOS_logo.png",
           duration: "Feb 2020 - July 2020",
           location: "Work From Home",
           description:
