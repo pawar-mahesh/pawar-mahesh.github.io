@@ -21,7 +21,7 @@ const greeting = {
   subTitle:
     "To implement my knowledge with dedication, team spirit and co-operation in order to leverage organizational and research skills and accept challenges.",
   resumeLink:
-    "https://drive.google.com/file/d/1Xukc7ukV-_A0fk0NCDXtc-rlc_bgQgfN/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1ThWfGPE_TcQu82V69pbwdWePSQ0tANEh/view?usp=drivesdk",
   portfolio_repository:
     "https://github.com/pawar-mahesh/pawar-mahesh.github.io",
 };
