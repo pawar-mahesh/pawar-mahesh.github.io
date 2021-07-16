@@ -59,7 +59,7 @@ const TopButton = (props) => {
       onMouseEnter={() => onMouseEnter(props.text, props.body)}
       onMouseLeave={() => onMouseLeave(props.body, props.text)}
     >
-      <i class="fas fa-arrow-up" id="arrow" aria-hidden="true" />
+      <i className="fas fa-arrow-up" id="arrow" aria-hidden="true" />
     </div>
   );
 };
