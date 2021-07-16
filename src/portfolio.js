@@ -157,10 +157,10 @@ const certifications = {
     {
       title: "Infosys Certified Software Programmer",
       subtitle: "- Python Programming",
-      logo_path: "google_logo.png",
+      logo_path: "infosys_logo.png",
       certificate_link: "",
       alt_name: "Infosys Certified Software Programmer",
-      color_code: "#8C151599",
+      color_code: "#ffffff",
     },
   ],
 };
