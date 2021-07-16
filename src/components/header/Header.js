@@ -48,6 +48,18 @@ const Header = (props) => {
                 Home
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/education"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ color: props.text }}
+                onMouseEnter={(event) => onMouseEnter(event, props.highlight)}
+                onMouseOut={(event) => onMouseOut(event)}
+              >
+                Education
+              </NavLink>
+            </li>
           </ul>
         </header>
       </div>

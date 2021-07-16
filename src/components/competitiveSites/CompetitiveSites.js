@@ -2,11 +2,11 @@ import React from "react";
 import "./CompetitiveSites.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
-const CompetitiveSites = () => {
+const CompetitiveSites = (props) => {
   return (
     <div className="competitive-sites-main-div">
       <ul className="dev-icons">
-        {this.props.logos.map((logo) => {
+        {props.logos.map((logo) => {
           return (
             <OverlayTrigger
               key={logo.siteName}

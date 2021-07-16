@@ -141,7 +141,7 @@ const degrees = {
     {
       title: "Walchand Institute of Technology, Solapur",
       subtitle: "B.E. in Information Technology",
-      logo_path: "",
+      logo_path: "degreeCard.jpg",
       alt_name: "WIT Solapur",
       duration: "2016 - 2020",
       descriptions: [
@@ -157,7 +157,7 @@ const certifications = {
     {
       title: "Infosys Certified Software Programmer",
       subtitle: "- Python Programming",
-      logo_path: "",
+      logo_path: "certificate.jpg",
       certificate_link: "",
       alt_name: "Infosys Certified Software Programmer",
       color_code: "#8C151599",

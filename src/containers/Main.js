@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
+import Education from "../pages/education/EducationComponent";
 
 const Main = (props) => {
   const theme = props.theme;
@@ -21,6 +22,10 @@ const Main = (props) => {
           <Route
             path="/home"
             render={(props) => <Home {...props} theme={theme} />}
+          />
+          <Route
+            path="/education"
+            render={(props) => <Education {...props} theme={theme} />}
           />
         </Switch>
       </HashRouter>
