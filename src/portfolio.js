@@ -141,7 +141,7 @@ const degrees = {
     {
       title: "Walchand Institute of Technology, Solapur",
       subtitle: "B.E. in Information Technology",
-      logo_path: "google_logo.png",
+      logo_path: "wit_logo.png",
       alt_name: "WIT Solapur",
       duration: "2016 - 2020",
       descriptions: [
