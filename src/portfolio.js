@@ -168,7 +168,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and XDA-developers",
+  subtitle: "Work, Internship and Xda-Developers",
   description:
     "I am working with Infosys Ltd as a Digital Specialist Engineer (DSE). I have also worked with Android Open Source Project (AOSP). I used to maintain custom roms for Android. I love to help people to build the custom roms",
   header_image_path: "experience.svg",
@@ -217,7 +217,7 @@ const experience = {
       ],
     },
     {
-      title: "XDA-developers",
+      title: "Xda-Developers",
       experiences: [
         {
           title: "Pixel Experience",
@@ -258,7 +258,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "google_logo.png",
+    profile_image_path: "profile_img.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React, Python, Custom Roms.",
   },
@@ -271,7 +271,7 @@ const contactPageData = {
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 8055580245",
+    subtitle: "+91 80555 80245",
   },
 };
 
