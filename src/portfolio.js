@@ -258,7 +258,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "google_logo.png",
+    profile_image_path: "profile_pic.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React, Python, Custom Roms.",
   },
