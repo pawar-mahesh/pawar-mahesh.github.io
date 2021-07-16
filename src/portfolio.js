@@ -16,7 +16,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Mahesh Pawar",
-  logo_name: "MaheshPawar",
+  logo_name: "Mahesh Pawar",
   nickname: "mahi",
   subTitle:
     "To implement my knowledge with dedication, team spirit and co-operation in order to leverage organizational and research skills and accept challenges.",
@@ -168,7 +168,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work, Internship and XDA-developers",
   description:
     "I am working with Infosys Ltd as a Digital Specialist Engineer (DSE). I have also worked with Android Open Source Project (AOSP). I used to maintain custom roms for Android. I love to help people to build the custom roms",
   header_image_path: "experience.svg",
@@ -180,7 +180,7 @@ const experience = {
           title: "Digital Specialist Engineer (DSE)",
           company: "Infosys Ltd",
           company_url: "https://www.infosys.com/",
-          logo_path: "",
+          logo_path: "google_logo.png",
           duration: "Nov 2020 - PRESENT",
           location: "Hyderabad, Telangana",
           description:
@@ -196,7 +196,7 @@ const experience = {
           title: "Ashwini Hospital Management System",
           company: "Ashwini Hospital, Solapur",
           company_url: "http://www.ashwinihospital.co.in/",
-          logo_path: "",
+          logo_path: "google_logo.png",
           duration: "May 2019 - Feb 2020",
           location: "Solapur, Maharashtra",
           description:
@@ -207,7 +207,7 @@ const experience = {
           title: "Helmet Detection System",
           company: "Traffic Police",
           company_url: "",
-          logo_path: "",
+          logo_path: "google_logo.png",
           duration: "Jun 2019 - May 2020",
           location: "Solapur, Maharashtra",
           description:
@@ -217,13 +217,13 @@ const experience = {
       ],
     },
     {
-      title: "Volunteerships",
+      title: "XDA-developers",
       experiences: [
         {
           title: "Pixel Experience",
           company: "Github",
           company_url: "https://github.com/PixelExperience",
-          logo_path: "",
+          logo_path: "google_logo.png",
           duration: "Feb 2020 - PRESENT",
           location: "Work From Home",
           description:
@@ -234,7 +234,7 @@ const experience = {
           title: "Colt OS",
           company: "Github",
           company_url: "https://github.com/PixelExperience",
-          logo_path: "",
+          logo_path: "google_logo.png",
           duration: "Feb 2020 - July 2020",
           location: "Work From Home",
           description:
