@@ -1,6 +1,6 @@
 {
   "private": true,
-  "homepage": ".",
+  "homepage": "http://pawar-mahesh.github.io",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
