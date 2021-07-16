@@ -3,7 +3,7 @@ const settings = {
 };
 
 const seo = {
-  title: "Mahesh's Portfolio",
+  title: "Mahesh Pawar",
   description:
     "To implement my knowledge with dedication, team spirit and co-operation in order to leverage organizational and research skills and accept challenges.",
   og: {
