@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
+import Contact from "../pages/contact/ContactComponent";
 import Experience from "../pages/experience/Experience";
 import Education from "../pages/education/EducationComponent";
 import Projects from "../pages/projects/Projects";
@@ -20,6 +21,10 @@ const Main = (props) => {
           <Route
             path="/splash"
             render={(props) => <Splash {...props} theme={theme} />}
+          />
+          <Route
+            path="/contact"
+            render={(props) => <Contact {...props} theme={theme} />}
           />
           <Route
             path="/home"

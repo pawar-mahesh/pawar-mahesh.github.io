@@ -72,6 +72,30 @@ const Header = (props) => {
                 Experience
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/projects"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ color: props.text }}
+                onMouseEnter={(event) => onMouseEnter(event, props.highlight)}
+                onMouseOut={(event) => onMouseOut(event)}
+              >
+                Projects
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/contact"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ color: props.text }}
+                onMouseEnter={(event) => onMouseEnter(event, props.highlight)}
+                onMouseOut={(event) => onMouseOut(event)}
+              >
+                Contact Me
+              </NavLink>
+            </li>
           </ul>
         </header>
       </div>
