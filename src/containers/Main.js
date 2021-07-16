@@ -9,9 +9,6 @@ import Projects from "../pages/projects/Projects";
 
 export default class Main extends Component {
   render() {
-    const theme = this.props.theme;
-    console.log(theme);
-
     return (
       <div>
         <HashRouter basename="/">
