@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8a758028bca75d7164f730e5ce68df5",
+    "revision": "da7c74a7758264de050a640af2f0ff68",
     "url": "/index.html"
   },
   {
-    "revision": "e1d9528d984502f5bc4c",
+    "revision": "1a70f6956628b778d169",
     "url": "/static/css/main.c2876cf4.chunk.css"
   },
   {
-    "revision": "e2a2e3161cf7befe4014",
-    "url": "/static/js/2.f6d8f551.chunk.js"
+    "revision": "e237cb4e29a1c32933d5",
+    "url": "/static/js/2.8a30a5e2.chunk.js"
   },
   {
-    "revision": "e1d9528d984502f5bc4c",
-    "url": "/static/js/main.71cb9ca8.chunk.js"
+    "revision": "1a70f6956628b778d169",
+    "url": "/static/js/main.10ab8b13.chunk.js"
   },
   {
     "revision": "75ccea5e659c1e979fcb",
@@ -50,6 +50,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "b8d146b2a954aed98a9551b90147e40f",
+    "url": "/static/media/ashwiniHospital_logo.b8d146b2.png"
+  },
+  {
+    "revision": "0aad4a3f3d626a1197d7d284d27b609d",
+    "url": "/static/media/coltOS_logo.0aad4a3f.png"
   },
   {
     "revision": "06147b6cd88c7346cecd1edd060cd5de",
@@ -110,6 +118,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8e4a6dcc692b3887f9f542cd6894d6d4",
     "url": "/static/media/fa-solid-900.8e4a6dcc.eot"
+  },
+  {
+    "revision": "7b6f65871223072b82d107cc8db76663",
+    "url": "/static/media/hackerRank_logo.7b6f6587.png"
+  },
+  {
+    "revision": "cd7077f7a08bffdb11e13093424e13fd",
+    "url": "/static/media/nptel_logo.cd7077f7.png"
+  },
+  {
+    "revision": "a340b185666b791cbaa260920765a47b",
+    "url": "/static/media/pixelExperience_logo.a340b185.png"
   },
   {
     "revision": "9d6d3b69562678a2955ddd0f51403183",
