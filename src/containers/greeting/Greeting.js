@@ -6,7 +6,7 @@ import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
 
-const Greeting = (props) => {
+export default function Greeting(props) {
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -14,15 +14,15 @@ const Greeting = (props) => {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text" style={{ color: props.text }}>
+              <h1 className="greeting-text" style={{ color: theme.text }}>
                 {greeting.title}
               </h1>
-              <h2 className="greeting-nickname" style={{ color: props.text }}>
+              <h2 className="greeting-nickname" style={{ color: theme.text }}>
                 ( {greeting.nickname} )
               </h2>
               <p
                 className="greeting-text-p subTitle"
-                style={{ color: props.secondaryText }}
+                style={{ color: theme.secondaryText }}
               >
                 {greeting.subTitle}
               </p>
@@ -45,6 +45,4 @@ const Greeting = (props) => {
       </div>
     </Fade>
   );
-};
-
-export default Greeting;
+}

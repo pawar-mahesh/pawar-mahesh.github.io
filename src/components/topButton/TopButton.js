@@ -1,7 +1,7 @@
 import React from "react";
 import "./TopButton.css";
 
-const TopButton = (props) => {
+export default function TopButton({ theme }) {
   function GoUpEvent() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -51,17 +51,15 @@ const TopButton = (props) => {
       onClick={GoUpEvent}
       id="topButton"
       style={{
-        color: props.body,
-        backgroundColor: props.text,
-        border: `solid 1px ${props.text}`,
+        color: theme.body,
+        backgroundColor: theme.text,
+        border: `solid 1px ${theme.text}`,
       }}
       title="Go up"
-      onMouseEnter={() => onMouseEnter(props.text, props.body)}
-      onMouseLeave={() => onMouseLeave(props.body, props.text)}
+      onMouseEnter={() => onMouseEnter(theme.text, theme.body)}
+      onMouseLeave={() => onMouseLeave(theme.body, theme.text)}
     >
-      <i className="fas fa-arrow-up" id="arrow" aria-hidden="true" />
+      <i class="fas fa-arrow-up" id="arrow" aria-hidden="true" />
     </div>
   );
-};
-
-export default TopButton;
+}

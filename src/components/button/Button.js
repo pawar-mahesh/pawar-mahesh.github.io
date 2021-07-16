@@ -1,37 +1,35 @@
 import React from "react";
 import "./Button.css";
 
-const Button = (props) => {
-  const onMouseEnter = (event, color, bgColor) => {
-    const el = event.target;
-    el.style.color = color;
-    el.style.backgroundColor = bgColor;
-  };
+const onMouseEnter = (event, color, bgColor) => {
+  const el = event.target;
+  el.style.color = color;
+  el.style.backgroundColor = bgColor;
+};
 
-  const onMouseOut = (event, color, bgColor) => {
-    const el = event.target;
-    el.style.color = color;
-    el.style.backgroundColor = bgColor;
-  };
+const onMouseOut = (event, color, bgColor) => {
+  const el = event.target;
+  el.style.color = color;
+  el.style.backgroundColor = bgColor;
+};
 
+export default function Button({ text, className, href, newTab, theme }) {
   return (
-    <div className={props.className}>
+    <div className={className}>
       <a
-        className="main-button"
-        href={props.href}
-        target={props.newTab && "_blank"}
+        class="main-button"
+        href={href}
+        target={newTab && "_blank"}
         style={{
-          color: props.body,
-          backgroundColor: props.text,
-          border: `solid 1px ${props.text}`,
+          color: theme.body,
+          backgroundColor: theme.text,
+          border: `solid 1px ${theme.text}`,
         }}
-        onMouseEnter={(event) => onMouseEnter(event, props.text, props.body)}
-        onMouseOut={(event) => onMouseOut(event, props.body, props.text)}
+        onMouseEnter={(event) => onMouseEnter(event, theme.text, theme.body)}
+        onMouseOut={(event) => onMouseOut(event, theme.body, theme.text)}
       >
-        {props.text}
+        {text}
       </a>
     </div>
   );
-};
-
-export default Button;
+}

@@ -141,7 +141,7 @@ const degrees = {
     {
       title: "Walchand Institute of Technology, Solapur",
       subtitle: "B.E. in Information Technology",
-      logo_path: "degreeCard.jpg",
+      logo_path: "google_logo.png",
       alt_name: "WIT Solapur",
       duration: "2016 - 2020",
       descriptions: [
@@ -157,7 +157,7 @@ const certifications = {
     {
       title: "Infosys Certified Software Programmer",
       subtitle: "- Python Programming",
-      logo_path: "certificate.jpg",
+      logo_path: "google_logo.png",
       certificate_link: "",
       alt_name: "Infosys Certified Software Programmer",
       color_code: "#8C151599",
@@ -258,7 +258,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile_img.png",
+    profile_image_path: "google_logo.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React, Python, Custom Roms.",
   },
