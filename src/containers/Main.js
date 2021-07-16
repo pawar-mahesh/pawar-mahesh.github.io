@@ -4,6 +4,7 @@ import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Experience from "../pages/experience/Experience";
 import Education from "../pages/education/EducationComponent";
+import Projects from "../pages/projects/Projects";
 
 const Main = (props) => {
   const theme = props.theme;
@@ -32,6 +33,10 @@ const Main = (props) => {
           <Route
             path="/education"
             render={(props) => <Education {...props} theme={theme} />}
+          />
+          <Route
+            path="/projects"
+            render={(props) => <Projects {...props} theme={theme} />}
           />
         </Switch>
       </HashRouter>
