@@ -10,7 +10,7 @@ export default class CloudInfraImg extends Component {
         xmlns="http://www.w3.org/2000/svg"
         // xmlns:xlink="http://www.w3.org/1999/xlink"
         width="655.81"
-        height="658.45"
+        height="558.45"
         viewBox="0 0 655.81 658.45"
       >
         <defs>
