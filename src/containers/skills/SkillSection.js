@@ -4,10 +4,13 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FullStackImg from "./FullStackImg";
+import CustomRomsImg from "./CustomRomsImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "FullStackImg")
     return <FullStackImg theme={props.theme} />;
+  else if (props.fileName === "CustomRomsImg")
+    return <CustomRomsImg theme={props.theme} />;
 }
 
 class SkillSection extends Component {

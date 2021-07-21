@@ -71,8 +71,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React",
+        "⚡ Building resposive website front end using React, Angular",
         "⚡ Creating application backend in Node & Express",
+        "⚡ Using MongoDB as a database",
       ],
       softwareSkills: [
         {
@@ -105,6 +106,13 @@ const skills = {
           },
         },
         {
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: {
+            color: "#fc0303",
+          },
+        },
+        {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
@@ -116,6 +124,53 @@ const skills = {
           fontAwesomeClassname: "simple-icons:npm",
           style: {
             color: "#CB3837",
+          },
+        },
+      ],
+    },
+    {
+      title: "Building Custom Roms",
+      fileName: "CustomRomsImg",
+      skills: [
+        "⚡ Maintaining device tree, vendor and kernel trees",
+        "⚡ Syncing with AOSP sources",
+        "⚡ Compiling the source to bring up updates",
+        "⚡ Publishing regular security patch updates",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Android",
+          fontAwesomeClassname: "simple-icons:android",
+          style: {
+            color: "#3ddc84",
+          },
+        },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Github",
+          fontAwesomeClassname: "simple-icons:github",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Ubuntu",
+          fontAwesomeClassname: "simple-icons:ubuntu",
+          style: {
+            color: "#FF5733",
           },
         },
       ],
