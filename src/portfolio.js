@@ -315,7 +315,7 @@ const experience = {
           title: "Helmet Detection System",
           company: "Traffic Police",
           company_url: "",
-          logo_path: "google_logo.png",
+          logo_path: "trafficPolice_logo.png",
           duration: "Jun 2019 - May 2020",
           location: "Solapur, Maharashtra",
           description:
