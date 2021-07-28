@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3befd6c18b9e02f4131601cc04431b41",
+    "revision": "064ff80f289a3bb575c9ae0e3a4198cc",
     "url": "/index.html"
   },
   {
-    "revision": "06d7e1790d2b1a1d3e53",
+    "revision": "3c40dddb911270d12b05",
     "url": "/static/css/main.bf56926f.chunk.css"
   },
   {
-    "revision": "6e4dc2853b625b45ffb9",
-    "url": "/static/js/2.3dc88e9f.chunk.js"
+    "revision": "319c30fd9031b18c76ef",
+    "url": "/static/js/2.da7780b2.chunk.js"
   },
   {
-    "revision": "06d7e1790d2b1a1d3e53",
-    "url": "/static/js/main.f8b4f421.chunk.js"
+    "revision": "3c40dddb911270d12b05",
+    "url": "/static/js/main.aa372b5b.chunk.js"
   },
   {
     "revision": "75ccea5e659c1e979fcb",
@@ -134,5 +134,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9d6d3b69562678a2955ddd0f51403183",
     "url": "/static/media/profile_pic.9d6d3b69.png"
+  },
+  {
+    "revision": "8fa382e4b35ba5ac4c8d89c95f3362e4",
+    "url": "/static/media/trafficPolice_logo.8fa382e4.png"
   }
 ]);
