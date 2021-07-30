@@ -2,13 +2,11 @@ import React, { Component } from "react";
 
 export default class CloudInfraImg extends Component {
   render() {
-    const theme = this.props.theme;
     return (
       <svg
         id="1dff4cb4-53bd-4ffc-acc1-5e8a2ceb72de"
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
-        // xmlns:xlink="http://www.w3.org/1999/xlink"
         width="655.81"
         height="558.45"
         viewBox="0 0 655.81 658.45"
@@ -32,7 +30,6 @@ export default class CloudInfraImg extends Component {
             y1="623"
             x2="309.42"
             y2="461"
-            // xlink:href="#e6219774-622b-406f-ae45-f26a74b1f5cd"
           />
           <linearGradient
             id="894cb520-7283-4f65-92a7-edb841614828"
@@ -40,7 +37,6 @@ export default class CloudInfraImg extends Component {
             y1="549"
             x2="773.42"
             y2="387"
-            // xlink:href="#e6219774-622b-406f-ae45-f26a74b1f5cd"
           />
           <linearGradient
             id="43bfcda2-dcfb-4411-a28b-16db327cb63c"
@@ -48,7 +44,6 @@ export default class CloudInfraImg extends Component {
             y1="277"
             x2="664.42"
             y2="115"
-            // xlink:href="#e6219774-622b-406f-ae45-f26a74b1f5cd"
           />
         </defs>
         <title>Building Custom roms</title>
@@ -76,7 +71,7 @@ export default class CloudInfraImg extends Component {
         <path
           d="M593.19,745.08s-86.63-.34-116.09-.34-116.09.34-116.09.34V585.74A116.09,116.09,0,0,1,477.09,469.65h0A116.09,116.09,0,0,1,593.19,585.74Z"
           transform="translate(-167.6 -120.78)"
-          fill={theme.imageHighlight}
+          fill={"#0E6BA8"}
         />
         <path
           d="M298.5,290.83h22a16.76,16.76,0,0,1,16.76,16.76v46.33a27.76,27.76,0,0,1-27.76,27.76h0a27.76,27.76,0,0,1-27.76-27.76V307.59A16.76,16.76,0,0,1,298.5,290.83Z"
@@ -109,12 +104,12 @@ export default class CloudInfraImg extends Component {
         <path
           d="M504.39,473.27S651.23,450.4,620.95,677.54l-17.66,65.11-50.48-2s32.81-75.71,12.62-126.19S504.39,473.27,504.39,473.27Z"
           transform="translate(-167.6 -120.78)"
-          fill={theme.imageHighlight}
+          fill={"#0E6BA8"}
         />
         <path
           d="M449.8,473.27S303,450.4,333.24,677.54l17.66,65.11,50.48-2s-32.81-75.71-12.62-126.19S449.8,473.27,449.8,473.27Z"
           transform="translate(-167.6 -120.78)"
-          fill={theme.imageHighlight}
+          fill={"#0E6BA8"}
         />
         <path
           d="M386.24,573.36s-10.1,78,7.57,100.71"
