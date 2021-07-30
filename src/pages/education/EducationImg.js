@@ -2,13 +2,11 @@ import React, { Component } from "react";
 
 export default class EducationImg extends Component {
   render() {
-    const theme = this.props.theme;
     return (
       <svg
         id="eb113788-f1f1-4c1f-be62-f1d0ea2e1eb6"
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
-        // xmlns:xlink="http://www.w3.org/1999/xlink"
         width="795.39431"
         height="574.03802"
         viewBox="0 0 795.39431 574.03802"
@@ -28,7 +26,7 @@ export default class EducationImg extends Component {
             <stop offset="1" stop-color="gray" stop-opacity="0.1" />
           </linearGradient>
         </defs>
-        <title>Graduation</title>
+        <title>Education</title>
         <ellipse
           cx="232.05775"
           cy="450.06897"
@@ -184,7 +182,7 @@ export default class EducationImg extends Component {
         <path
           d="M407.19716,520.481l-24,36s8,37,185,36,191-36,191-36l-33-48-101-69Z"
           transform="translate(-202.30284 -162.98099)"
-          fill={theme.imageHighlight}
+          fill={"#0E6BA8"}
         />
         <path
           d="M407.19716,520.481l-24,36s8,37,185,36,191-36,191-36l-33-48-101-69Z"
@@ -193,7 +191,7 @@ export default class EducationImg extends Component {
         />
         <polygon
           points="715.394 224 400.394 363 16.394 224 368.394 64 541.184 143.67 547.374 146.53 715.394 224"
-          fill={theme.imageHighlight}
+          fill={"#0E6BA8"}
         />
         <polygon
           points="715.394 224 400.394 363 16.394 224 368.394 64 541.184 143.67 547.374 146.53 715.394 224"
@@ -206,7 +204,7 @@ export default class EducationImg extends Component {
         <path
           d="M411.19716,386.481l-28,170s201-65,376,0l-26-180S498.19716,347.481,411.19716,386.481Z"
           transform="translate(-202.30284 -162.98099)"
-          fill={theme.imageHighlight}
+          fill={"#0E6BA8"}
         />
         <ellipse cx="553.39431" cy="272" rx="29" ry="20" fill="#f5f5f5" />
       </svg>
