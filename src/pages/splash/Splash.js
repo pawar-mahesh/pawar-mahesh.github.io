@@ -6,7 +6,7 @@ import LoaderLogo from "../../components/Loader/LoaderLogo.js";
 function AnimatedSplash(props) {
   return (
     <div className="logo_wrapper">
-      <div className="screen" style={{ backgroundColor: "#99401F" }}>
+      <div className="screen" style={{ backgroundColor: "	#18191A" }}>
         <LoaderLogo id="logo" theme={props.theme} />
       </div>
     </div>
