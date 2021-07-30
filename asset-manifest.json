@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf56926f.chunk.css",
-    "main.js": "/static/js/main.aa372b5b.chunk.js",
-    "main.js.map": "/static/js/main.aa372b5b.chunk.js.map",
+    "main.css": "/static/css/main.4e340800.chunk.css",
+    "main.js": "/static/js/main.35b29fe3.chunk.js",
+    "main.js.map": "/static/js/main.35b29fe3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.11f1a843.js",
     "runtime-main.js.map": "/static/js/runtime-main.11f1a843.js.map",
     "static/js/2.da7780b2.chunk.js": "/static/js/2.da7780b2.chunk.js",
     "static/js/2.da7780b2.chunk.js.map": "/static/js/2.da7780b2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a77c7171c8bbed2876011e9c0093fd3a.js": "/precache-manifest.a77c7171c8bbed2876011e9c0093fd3a.js",
+    "precache-manifest.1c8275037478f7d6f775ea6020e90c39.js": "/precache-manifest.1c8275037478f7d6f775ea6020e90c39.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bf56926f.chunk.css.map": "/static/css/main.bf56926f.chunk.css.map",
+    "static/css/main.4e340800.chunk.css.map": "/static/css/main.4e340800.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/ashwiniHospital_logo.png": "/static/media/ashwiniHospital_logo.b8d146b2.png",
     "static/media/coltOS_logo.png": "/static/media/coltOS_logo.0aad4a3f.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.11f1a843.js",
     "static/js/2.da7780b2.chunk.js",
-    "static/css/main.bf56926f.chunk.css",
-    "static/js/main.aa372b5b.chunk.js"
+    "static/css/main.4e340800.chunk.css",
+    "static/js/main.35b29fe3.chunk.js"
   ]
 }
