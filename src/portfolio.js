@@ -31,7 +31,7 @@ const socialMediaLinks = [
     name: "Github",
     link: "https://github.com/pawar-mahesh",
     fontAwesomeIcon: "fa-github",
-    backgroundColor: "#181717",
+    backgroundColor: "#070707",
   },
   {
     name: "LinkedIn",
@@ -217,7 +217,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1-4ITjeCW4pWU8-QIy97PWWmTFPY-1YPZ/view?usp=drivesdk",
       alt_name: "Infosys Certified Software Programmer",
-      color_code: "#ffffff",
+      color_code: "#b0b3b8",
     },
     {
       title: "HackerRank Python (Basic)",
@@ -225,7 +225,7 @@ const certifications = {
       logo_path: "hackerRank_logo.png",
       certificate_link: "https://www.hackerrank.com/certificates/d0db00079870",
       alt_name: "HackerRank Python (Basic)",
-      color_code: "#ffffff",
+      color_code: "#b0b3b8",
     },
     {
       title: "Practical Machine Learning with Tensorflow",
@@ -234,7 +234,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1-jiYKC0rVAeNE7NvvBbEjJrymgiGqI7R/view?usp=drivesdk",
       alt_name: "Practical Machine Learning with Tensorflow",
-      color_code: "#ffffff",
+      color_code: "#b0b3b8",
     },
     {
       title: "HackerRank Problem Solving (Basic)",
@@ -242,7 +242,7 @@ const certifications = {
       logo_path: "hackerRank_logo.png",
       certificate_link: "https://www.hackerrank.com/certificates/9c9b5328ec37",
       alt_name: "HackerRank Problem Solving (Basic)",
-      color_code: "#ffffff",
+      color_code: "#b0b3b8",
     },
     {
       title: "Python for Data Science",
@@ -251,7 +251,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1-ifdJZRQO3WpnkRSq5vTKB0BvsMmY2vJ/view?usp=sharing",
       alt_name: "Python for Data Science",
-      color_code: "#ffffff",
+      color_code: "#b0b3b8",
     },
     {
       title: "HackerRank C (Basic)",
@@ -259,7 +259,7 @@ const certifications = {
       logo_path: "hackerRank_logo.png",
       certificate_link: "https://www.hackerrank.com/certificates/474b8b93b474",
       alt_name: "HackerRank C (Basic)",
-      color_code: "#ffffff",
+      color_code: "#b0b3b8",
     },
     {
       title: "Programming, Data Structures and Algorithms using Python",
@@ -268,7 +268,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/10bv9W2xAYx5XcLFTvUksFGi3WoxiiUyV/view?usp=sharing",
       alt_name: "Programming, Data Structures and Algorithms using Python",
-      color_code: "#ffffff",
+      color_code: "#b0b3b8",
     },
   ],
 };
