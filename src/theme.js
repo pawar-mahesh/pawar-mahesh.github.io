@@ -3,9 +3,8 @@ export const darkTheme = {
   text: "#e4e6eb",
   highlight: "#3a3b3c",
   buttonColor: "#242526",
+  secondaryText: "#b0b3b8",
 
-  dark: "#00072D",
-  secondaryText: "#7F8DAA",
   imageHighlight: "#0E6BA8",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#0A2472",

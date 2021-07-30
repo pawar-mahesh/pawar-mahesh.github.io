@@ -6,10 +6,7 @@ class ExperienceCard extends Component {
     const experience = this.props.experience;
     const theme = this.props.theme;
     return (
-      <div
-        className="experience-card"
-        style={{ border: `1px solid ${experience["color"]}` }}
-      >
+      <div className="experience-card" style={{ border: `1px solid #18191a` }}>
         <div className="experience-card-logo-div">
           <img
             className="experience-card-logo"
