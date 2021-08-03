@@ -48,7 +48,7 @@ const socialMediaLinks = [
   {
     name: "Whatsapp",
     link:
-      "https://api.whatsapp.com/send?phone=918055580245&text=&source=&data='Hi Mahesh'",
+      "https://api.whatsapp.com/send?phone=918055580245&text=&source=&data=",
     fontAwesomeIcon: "fa-whatsapp",
     backgroundColor: "#25D366",
   },
