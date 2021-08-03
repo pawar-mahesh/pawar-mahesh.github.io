@@ -46,6 +46,13 @@ const socialMediaLinks = [
     backgroundColor: "#D14836",
   },
   {
+    name: "Whatsapp",
+    link:
+      "https://api.whatsapp.com/send?phone=918055580245&text=&source=&data='Hi Mahesh'",
+    fontAwesomeIcon: "fa-whatsapp",
+    backgroundColor: "#25D366",
+  },
+  {
     name: "Twitter",
     link: "https://twitter.com/mahi_pawar_14",
     fontAwesomeIcon: "fa-twitter",
