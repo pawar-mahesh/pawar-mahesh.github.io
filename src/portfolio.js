@@ -156,21 +156,21 @@ const skills = {
           skillName: "Java",
           fontAwesomeClassname: "simple-icons:java",
           style: {
-            color: "#000000",
+            color: "#FFF",
           },
         },
         {
           skillName: "Github",
           fontAwesomeClassname: "simple-icons:github",
           style: {
-            color: "#000000",
+            color: "#FFF",
           },
         },
         {
           skillName: "Linux",
           fontAwesomeClassname: "simple-icons:linux",
           style: {
-            color: "#000000",
+            color: "#000",
           },
         },
         {
