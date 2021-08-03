@@ -4,6 +4,7 @@ export const darkTheme = {
   highlight: "#3a3b3c",
   buttonColor: "#242526",
   secondaryText: "#b0b3b8",
+  proudImgTableHandle: "#7B5836",
 
   imageHighlight: "#242526",
   compImgHighlight: "#000",
